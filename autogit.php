@@ -23,8 +23,8 @@ function autogit() {
 // the content directory is a Git repo
 if (autogit()->isRepo()) {
 
-    $this->setBranch();
-    $this->setUser(site()->user());
+    autogit()->setBranch();
+    autogit()->setUser(site()->user());
 
     // Load hooks
     require_once(__DIR__.DS.'lib'.DS.'hooks.php');
