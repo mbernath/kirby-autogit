@@ -22,6 +22,10 @@ function autogit() {
 // Only load hooks, routes and widgets when
 // the content directory is a Git repo
 if (autogit()->isRepo()) {
+
+    $this->setBranch();
+    $this->setUser(site()->user());
+
     // Load hooks
     require_once(__DIR__.DS.'lib'.DS.'hooks.php');
 

@@ -22,9 +22,6 @@ class Autogit extends Git
         $this->remoteBranch = c::get('autogit.remote.branch', $this->localBranch);
         $this->remoteName   = c::get('autogit.remote.name', 'origin');
 
-        $this->setBranch();
-        $this->setUser(site()->user());
-
         static::$instance = $this;
     }
 
@@ -93,7 +90,7 @@ class Autogit extends Git
         $this->execute("checkout -q '{$branch}'");
     }
 
-    protected function setUser($user)
+    public function setUser($user)
     {
         $preferUser = c::get('autogit.panel.user', true);
         $userName = c::get('autogit.user.name', 'Kirby Auto Git');
