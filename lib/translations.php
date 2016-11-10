@@ -16,6 +16,11 @@ return [
         'file.update'  => 'Updated file %s',
         'file.sort'    => 'Sorted file %s',
         'file.delete'  => 'Deleted file %s',
+        'user.create'  => 'Created user %s',
+        'user.update'  => 'Updated user %s',
+        'user.delete'  => 'Deleted user %s',
+        'avatar.upload'=> 'Uploaded avatar %s',
+        'avatar.delete'=> 'Deleted avatar %s'
     ],
 
     'de' => [
@@ -32,6 +37,11 @@ return [
         'file.update'  => 'Datei %s aktualisiert',
         'file.sort'    => 'Datei %s sortiert',
         'file.delete'  => 'Datei %s gelöscht',
+        'user.create'  => 'Benutzer %s erstellt',
+        'user.update'  => 'Benutzer %s geändert',
+        'user.delete'  => 'Benutzer %s gelöscht',
+        'avatar.upload'=> 'Avatar %s hochgeladen',
+        'avatar.delete'=> 'Avatar %s gelöscht'
     ],
     
     'fr' => [
@@ -48,6 +58,11 @@ return [
         'file.update'  => 'Fichier %s modifié',
         'file.sort'    => 'Fichier %s classé',
         'file.delete'  => 'Fichier %s supprimé',
+        'user.create'  => '',
+        'user.update'  => '',
+        'user.delete'  => '',
+        'avatar.upload'=> '',
+        'avatar.delete'=> ''
     ],
 
     'pt_BR' => [
@@ -64,6 +79,11 @@ return [
         'file.update'  => 'Atualizou o arquivo %s',
         'file.sort'    => 'Alterou a ordem do arquivo %s',
         'file.delete'  => 'Excluiu o arquivo %s',
+        'user.create'  => '',
+        'user.update'  => '',
+        'user.delete'  => '',
+        'avatar.upload'=> '',
+        'avatar.delete'=> ''
     ],
 
     'pt_PT' => [
@@ -80,6 +100,11 @@ return [
         'file.update'  => 'Atualizou o ficheiro %s',
         'file.sort'    => 'Alterou a ordem do ficheiro %s',
         'file.delete'  => 'Excluiu o ficheiro %s',
+        'user.create'  => '',
+        'user.update'  => '',
+        'user.delete'  => '',
+        'avatar.upload'=> '',
+        'avatar.delete'=> ''
     ],
 
 ];
